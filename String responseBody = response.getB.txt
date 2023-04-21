@@ -1,0 +1,3 @@
+String responseBody = response.getBody().asString();
+JsonPath jsonPath = new JsonPath(responseBody);
+String apiKey = jsonPath.get("data.api_key");
