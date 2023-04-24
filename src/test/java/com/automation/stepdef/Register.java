@@ -94,7 +94,7 @@ public class Register extends Base {
 	@Then("^I fetch otp using API$")
 	public void i_fetch_otp_using_api() throws Throwable {
 		Thread.sleep(2000);
-//		GetEMailUsingJavaMailFromMail7 rapi = new GetEMailUsingJavaMailFromMail7();
+		GetEMailUsingJavaMailFromMail7 rapi = new GetEMailUsingJavaMailFromMail7();
 		String result = rapi.getOTPfromMail(Storedmail);
 		System.err.println(result);
 		System.out.println(result);

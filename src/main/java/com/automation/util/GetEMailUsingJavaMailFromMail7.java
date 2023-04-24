@@ -12,10 +12,10 @@ public class GetEMailUsingJavaMailFromMail7 {
 	static String otp = null;
 
 	public String getOTPfromMail(String email) {
-   //e2ehiring@mail7.io API Credentials(Key and Secret) 
+  //e2ehiring@mail7.io API Credentials(Key and Secret) 
 		Mail7SDK.Initialize sdk = new Mail7SDK.Initialize();
-		sdk.setApiKey("8c781eb0-78a1-4e05-98cb-31f034e50230");
-		sdk.setApiSecret("ead85723-c6e1-4bf1-8e29-43a1af6e139e");
+		sdk.setApiKey("5713cdc5-2d17-4b32-9016-077ec9b693b8");
+		sdk.setApiSecret("d3d8718a-7295-42c6-8086-5f8a00183562");
 		EmailApi Mail7EmailAPI = new EmailApi();
 		System.out.println(email);
 
